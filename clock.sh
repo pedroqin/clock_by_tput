@@ -17,7 +17,7 @@ Ascii_Signature="$Ascii_Signature_dir/ascii_signature.sh -n -s "
 
 # we may need assigned length space, we can do this by using "for", but need more time than ${space_placeholder:0:$length}
 space_placeholder="                              "
-second_bar="############################################################"
+second_bar="###########################################################"
 # save the last display 's max length , for overwriting all char last time by using space if last time 's max len > this time'
 last_len=0
 
